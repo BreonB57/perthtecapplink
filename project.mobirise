@@ -89,7 +89,7 @@
           "_name": "pro.custom-html",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
-            "<script src=\"https://www.powr.io/powr.js?platform=html\"></script>"
+            "<script src=\"https://www.powr.io/powr.js?platform=mobirise\"></script>"
           ],
           "_anchor": "custom-html-1"
         }
