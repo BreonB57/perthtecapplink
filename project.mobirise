@@ -32,7 +32,7 @@
     "versionFirst": "4.12.4",
     "siteFonts": [],
     "imageResize": true,
-    "uniqCompNum": 1,
+    "uniqCompNum": 2,
     "versionPublish": "4.12.4"
   },
   "pages": {
@@ -47,9 +47,9 @@
       },
       "components": []
     },
-    "1.html": {
+    "2.html": {
       "settings": {
-        "title": "1",
+        "title": "2",
         "order": 1
       },
       "components": [
@@ -71,12 +71,29 @@
         }
       ]
     },
-    "2.html": {
+    "1.html": {
       "settings": {
-        "title": "2",
+        "title": "1",
         "order": 2
       },
-      "components": []
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid AMP HTML here -->\n<!-- for more info: https://www.ampproject.org/ -->\n\n<div class=\"powr-paypal-button\" id=\"fb7a4d25_1596284430\"></div>[JS_CODE_0]",
+          "_customCSS": "/* Type valid AMP CSS here */\n\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script src=\"https://www.powr.io/powr.js?platform=html\"></script>"
+          ],
+          "_anchor": "custom-html-1"
+        }
+      ]
     }
   }
 }
